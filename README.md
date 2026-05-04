@@ -60,7 +60,9 @@ Fleet operations depend on continuous vehicle availability. Unexpected component
 
 ## Dataset Design
 
-A synthetic dataset was generated to simulate real-world vehicle service data.
+A synthetic dataset was generated using Python to simulate real-world vehicle service records.
+
+The dataset includes multiple entities such as vehicles, service records, components, and usage patterns. It was designed to reflect realistic maintenance scenarios and support feature engineering for predictive modeling.
 
 ## Exploratory Data Analysis
 
@@ -75,6 +77,7 @@ The analysis included:
 - Identification of patterns indicating potential failures  
 
 Power BI dashboards were used to visualize relationships between features and support feature engineering decisions.
+The Power BI dashboard file (.pbix) used for analysis is included in the repository.
 
 ### Attributes
 
@@ -110,6 +113,16 @@ These models were selected to provide a balanced comparison across baseline, ens
 | XGBoost             | 1.000    | 1.000     | 0.998  | 0.999    |
 | Naive Bayes         | 0.966    | 0.937     | 0.953  | 0.945    |
 
+## Results
+
+The models demonstrated strong performance on the dataset.
+
+- Random Forest and Logistic Regression achieved perfect scores across all metrics  
+- XGBoost performed similarly with a minor variation in recall and F1 score  
+- Naive Bayes showed comparatively lower performance  
+
+These results indicate that ensemble models are more suitable for this structured dataset.
+
 ## Final Model Selection
 
 Random Forest was selected as the final model because:
@@ -139,7 +152,7 @@ Random Forest was selected as the final model because:
 
 ## Conclusion
 
-This project demonstrates the application of machine learning for predictive maintenance. By combining structured data, feature engineering, model evaluation, and visualization, the system provides a practical approach to improving maintenance planning and reducing unexpected failures.
+This project demonstrates the application of machine learning for predictive maintenance. By combining structured data, feature engineering, model evaluation, and visualization, the system provides a practical approach to improving maintenance planning and reducing unexpected failures. The system can be extended further using real-world data and advanced predictive techniques for improved generalization.
 
 ## References
 
