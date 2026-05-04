@@ -36,16 +36,45 @@ Fleet operations depend on continuous vehicle availability. Unexpected component
 
 ## Technology Stack
 
+### Programming Language
 - Python  
-- Pandas, NumPy  
-- Scikit-learn, XGBoost  
+
+### Data Processing and Machine Learning
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- XGBoost  
+
+### Exploratory Data Analysis
+- Power BI  
+
+### Dashboard Visualization
+- Altair  
+- Matplotlib  
+
+### Dashboard and Deployment
 - Streamlit  
-- Altair, Matplotlib  
-- VS Code  
+
+### Development Tools
+- Visual Studio Code  
 
 ## Dataset Design
 
 A synthetic dataset was generated to simulate real-world vehicle service data.
+
+## Exploratory Data Analysis
+
+Exploratory Data Analysis was performed using Power BI to understand patterns in vehicle service data.
+
+The analysis included:
+
+- Service trends over time  
+- Distribution of mileage and component usage  
+- Remaining life analysis across components  
+- Classification of component health status  
+- Identification of patterns indicating potential failures  
+
+Power BI dashboards were used to visualize relationships between features and support feature engineering decisions.
 
 ### Attributes
 
