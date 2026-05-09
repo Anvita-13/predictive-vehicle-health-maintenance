@@ -161,6 +161,10 @@ This project demonstrates the application of machine learning for predictive mai
 - Streamlit Documentation  
 - Pandas Documentation  
 
+## Contributing
+
+Contributions are welcome. Suggestions, improvements, or issues can be submitted through pull requests or issue tracking.
+
 ## Author
 
 Anvita Arun  
