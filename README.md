@@ -165,6 +165,11 @@ This project demonstrates the application of machine learning for predictive mai
 
 Contributions are welcome. Suggestions, improvements, or issues can be submitted through pull requests or issue tracking.
 
+
+## Live Application
+
+[[Open RailServe on Streamlit](https://predictive-vehicle-health-maintenance.streamlit.app/)
+
 ## Author
 
 Anvita Arun  
