@@ -168,7 +168,7 @@ Contributions are welcome. Suggestions, improvements, or issues can be submitted
 
 ## Live Application
 
-[[Open RailServe on Streamlit](https://predictive-vehicle-health-maintenance.streamlit.app/)]
+[[Streamlit Dashboard](https://predictive-vehicle-health-maintenance.streamlit.app/)]
 
 ## Author
 
